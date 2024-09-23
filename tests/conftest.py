@@ -25,7 +25,7 @@ os.environ['WDM_LOG_LEVEL'] = '0'
 @pytest.fixture(scope="session")
 def base_url():
     """Fixture for the base URL of the application."""
-    return "https://www.saucedemo.com"
+    return "https://demo.opencart.com/en-gb"
 
 def pytest_addoption(parser):
     parser.addoption("--browser", action="store", default="chrome", help="Browser choice: chrome, firefox, edge, safari, ie")
